@@ -24,6 +24,7 @@
 -(void)configureItemViews:(Character*)character
 {
     [_headView configureWithItem:character.headItem];
+    
     [_neckView configureWithItem:character.neckItem];
     [_shoulderView configureWithItem:character.shoulderItem];
     [_backView configureWithItem:character.backItem];
